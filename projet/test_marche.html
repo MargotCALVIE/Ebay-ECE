@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>test marche</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form method="get" action="http://localhost/marche.php" >  
+	<label for="categorie-select">Choisir une categorie:</label>
+
+<select name="categorie-select" id="categorie-select" >
+	<option value="ALL">Toutes</option>
+    <option value="FetT">Ferraille & trésor</option>
+    <option value="BpM">Bon pour le musée</option>
+    <option value="VIP">Accessoire VIP</option>
+	
+</select>
+ <br>
+<label for="prix-select">Choisir une méthode de payement:</label>
+
+<select name="prix-select" id="prix-select" >
+    <option value="none">Toutes</option>
+	<option value="Enc">Enchères</option>
+    <option value="MO">Meilleur offres</option>
+    <option value="AM">Achat immédiat</option>
+	
+</select>
+    <input type="submit" value="rechercher" />
+</form>
+<html>
+<body>
+
+<form action="http://localhost/test_fichier.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
+</body>
+</html>
+</body>
+</html>

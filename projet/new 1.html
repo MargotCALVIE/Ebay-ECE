@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>test BDD</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h2>test BDD</h2>
+<form action="http://localhost/projet.php" method="post" >
+<table>
+	<tr>
+		<td>Nom :</td>
+		<td><input type="text" name="nom" id="nom" required></td>
+	</tr>
+	<tr>
+		<td>Prenom :</td>
+		<td><input type="text" name="prenom" id="prenom" required></td>
+	</tr>
+	<tr>
+		<td>Pseudo :</td>
+		<td><input type="text" name="pseudo" id="pseudo" required></td>
+	</tr>
+	<tr>
+		<td>Mail :</td>
+		<td><input type="text" name="mail" id="mail" required></td>
+	</tr>
+	<tr>
+		<td>Photo de profil :</td>
+		<td><input type="text" name="photoprofil" id="photoprofil" required></td>
+	</tr>
+	<tr>
+		<td>Image de fond :</td>
+		<td><input type="text" name="imagefond" id="imagefond" required></td>
+	</tr>
+	<tr>
+		<td>Item :</td>
+		<td><input type="text" name="item" id="item" required></td>
+	</tr>
+	<tr>
+		<td>Statut :</td>
+		<td>
+			<input type="radio" value="acheteur" name="bt">
+			<label for="acheteur">Acheteur</label><br>
+			<input type="radio" value="vendeur" name="bt">
+			<label for="vendeur">Vendeur</label><br>
+			<input type="radio" value="admin" name="bt">
+			<label for="admin">ADMIN</label>
+		</td>
+	</tr>
+</table>
+	<button type="submit" name="cree">Cree</button>
+</form>
+<form action="http://localhost/projet.php" method="post" >
+<table>
+	<tr>	
+		<td>ID :</td>
+		<td><input type="text" name="ID" id="ID" required></td>
+	
+	</tr>
+</table>
+<button type="submit" name="suppr">Suppr</button>
+</form>
+</body>
+</html>
