@@ -1,0 +1,19 @@
+#header {
+background-color: #ffe599;
+}
+
+.titre {
+text-align: center;
+color: black;
+font-family : comic sans ms, times, serif ;
+}
+
+
+
+#footer {
+background-color:#ffe599 ;
+color: black;
+clear: both;
+text-align: center;
+padding: 10px;
+}
