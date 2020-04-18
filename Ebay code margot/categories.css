@@ -55,7 +55,7 @@ nav ul
     justify-content: space-around;
     padding: 20px;
     list-style: none;
- 
+    
 }
 
 nav li
@@ -78,7 +78,7 @@ nav a
 
 nav a:hover
 {
-    color: yellow;
+    color: #FFD700;
 }
 
 footer
@@ -86,3 +86,55 @@ footer
     text-align: center;
     font-size: small;
 }
+
+
+.ChoixCategories
+{
+    margin-left: 30px;
+    font-family: comic sans ms;
+    display: flex;
+    flex-direction: row;
+}
+.menu a.Categorie
+{
+    background-color: #DEB887 ; 
+    border-color: #DEB887 ;
+}
+section select
+{
+    background-color: #FFD700 ;
+}
+input[type="submit"]
+{
+    background-color: #7FFFD4;
+    margin-left:100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.titreCategorie
+{
+    font-family: courier;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 175px;
+    color: #FFA07A;
+  
+}
+.ChoixVente
+{
+    margin-left: 30px;
+    font-family: comic sans ms;
+    display: flex;
+    flex-direction: row;
+}
+.titreVente
+{
+    font-family: courier;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 350px;
+    text-decoration: underline ;
+    color: #C71585;  
+}
+   
