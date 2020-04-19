@@ -1,10 +1,22 @@
+html {
+  height: 100%;
+}
+
+ 
 body
-{
+{ position: relative;
     background-color: #ffe599 ;
     font-family: comic sans ms, Arial ;
     color: black ;
+     min-height: 100%;
 }
+footer
+{
+    text-align: center;
+    font-size: small;
+    bottom: 0;
 
+}
 #main_wrapper
 {
     width: 900px;
@@ -78,63 +90,74 @@ nav a
 
 nav a:hover
 {
-    color: #FFD700;
+   color: #DEB887;
 }
 
-footer
-{
-    text-align: center;
-    font-size: small;
-}
-
-
-.ChoixCategories
-{
-    margin-left: 30px;
-    font-family: comic sans ms;
-    display: flex;
-    flex-direction: row;
-}
-.menu a.Categorie
+.menu a.Vendre
 {
     background-color: #DEB887 ; 
     border-color: #DEB887 ;
 }
-section select
+
+.TitreVendre
 {
-    background-color: #FFD700 ;
-}
-input[type="submit"]
-{
-    background-color: #7FFFD4;
-    margin-left:100px;
-    margin-top: 20px;
-    font-size: 20px;
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 30px;
+    color: #FF1493;
 }
 
-.titreCategorie
+.FormulaireVendre
 {
-    font-family: courier;
-    font-size: 30px;
-    font-weight: 900;
-    margin-left: 175px;
-    color: #FFA07A;
-  
+  text-align: right;
+  margin-left: 300px;
 }
-.ChoixVente
+
+input[type="submit"]
 {
-    margin-left: 30px;
-    font-family: comic sans ms;
-    display: flex;
-    flex-direction: row;
+    font-family: arial;
+
+    font-size: small;
+    margin-left: 15px;
+    
 }
-.titreVente
+ #connexion{   
+    background-color: #00FA9A;
+ }
+#insciption
 {
-    font-family: courier;
-    font-size: 30px;
-    font-weight: 900;
-    margin-left: 350px;
-    text-decoration: underline ;
-    color: #C71585;  
+    background-color: #B0E0E6;
+    margin-left: 390px;
 }
-   
+#Creer
+{
+    background-color: #B0E0E6;
+    margin-left: 50px;
+
+}
+#log{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#Ajouter{
+    background-color: #FF6347;
+    margin-left: 380px;
+}
+.FormulaireItem
+{
+    
+  text-align: right;
+  margin-left: 300px;
+
+}
+
+.AjouterItemForm{
+margin-left: 280px;
+}
+#Creer2
+{
+    background-color: #B0E0E6;
+    margin-left: 500px;
+
+}

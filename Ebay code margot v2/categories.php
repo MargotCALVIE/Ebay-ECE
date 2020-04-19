@@ -32,22 +32,31 @@
         </header>
         
         <section>
+
 <?php
-//si le bouton est cliqué : categorie valider
+
+session_start(); 
+
 if ($_POST["envoie"])
 {
+
         if($_POST['select_box_categories']=="Choix1")
         {
                 echo '<p class="titreCategorie"> Catégorie : FERRAILLE OU TRESOR </p>';
+                $_SESSION['categorie'] = 1;
                 
         }
         if($_POST['select_box_categories']=="Choix2")
         {
-                echo '<p class="titreCategorie"> Catégorie : BON POUR LE MUSEE </p>'; 
+                echo '<p class="titreCategorie"> Catégorie : BON POUR LE MUSEE </p>';
+                $_SESSION['categorie'] = 2;
+                
         }
         if($_POST['select_box_categories']=="Choix3")
         {
-                echo '<p class="titreCategorie"> Catégorie : ACCESSOIRE VIP  </p>'; 
+                echo '<p class="titreCategorie"> Catégorie : ACCESSOIRE VIP  </p>';
+                $_SESSION['categorie'] = 3;
+              
         }
    
 }
@@ -60,7 +69,7 @@ if ($_POST["envoie"])
                         <tr>
                             <td> Choisir votre type de vente : </td>
                             <td> <select name="select_box_vente">
-                            <option> ...Choisir... </option>
+                            <option> ...Choisir ... </option>
                             <option value="directe"> Vente directe </option>
                             <option value="encheres"> Vente par encheres </option>
                             <option value="negociation"> Vente par negociation </option>
@@ -72,7 +81,10 @@ if ($_POST["envoie"])
                     </table>
                 </form>
         </div>
+         
+                  
 
+   
          </section>
         
         
