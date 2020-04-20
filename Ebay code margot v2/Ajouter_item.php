@@ -3,7 +3,7 @@
     
 <head>
     <meta charset="utf-8"/>
-    <title> Vendre Ebay ECE </title>
+    <title>  Ebay ECE </title>
     <link href="vendre.css" rel="stylesheet" type="text/css"/>
 </head>
 
@@ -18,13 +18,13 @@
                 </div>
             </div>
             <nav>
-                <ul class="menu">
+                <ul >
                 <li> <a href="categories.html"> Catégories </a></li>
                 <li> <a href="achat.html"> Achat </a></li>
-                <li> <a href="vendre.html" class="Vendre"> Vendre </a></li>
-                <li> <a href="votrecompte.html"> Votre Compte </a></li>
-                <li> <a href="panier.html"> Panier </a></li>
-                <li> <a href="admin.html"> Admin </a></li>
+                <li> <a href="vendre.html"> Vendre </a></li>
+                <li> <a href="login.html"> Votre Compte </a></li>
+                <li> <a href="panier.php"> Panier </a></li>
+                <li> <a href="admin.php" class="admin"> Admin </a></li>
                 </ul>
             </nav>      
         </header>

@@ -42,13 +42,13 @@ session_start();
                 </div>
             </div>
             <nav>
-                <ul>
+                <ul class="menu">
                 <li> <a href="categories.html"> Catégories </a></li>
                 <li> <a href="achat.html"> Achat </a></li>
                 <li> <a href="vendre.html"> Vendre </a></li>
                 <li> <a href="login.html"class="login"> Votre Compte </a></li>
-                <li> <a href="panier.html"> Panier </a></li>
-                <li> <a href="admin.html"> Admin </a></li>
+                <li> <a href="panier.php"> Panier </a></li>
+                <li> <a href="admin.php"> Admin </a></li>
                 </ul>
             </nav>      
         </header>

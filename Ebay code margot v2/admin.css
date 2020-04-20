@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+}
+
+ 
+body
+{ position: relative;
+    background-color: #ffe599 ;
+    font-family: comic sans ms, Arial ;
+    color: black ;
+     min-height: 100%;
+}
+footer
+{
+    text-align: center;
+    font-size: small;
+    bottom: 0;
+
+}
+#main_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+nav a
+{
+    font-family: Arial Black, Gadget;
+    text-transform: uppercase ;
+    font-weight: normal;
+}
+
+header
+{
+    
+}
+
+#titre_principal
+{
+    text-align: center;
+    margin-top: 60px;
+    font-size: xx-large;
+    font-family: Courier New;
+    color:  #008B8B;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;    
+}
+
+#logo img
+{
+    position: fixed;
+    width: 175px;
+    height: 175px;
+    left: 10px;
+    top: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+nav li
+{
+    margin-bottom:  15px;
+}
+     
+
+nav a
+{
+    font-size: 1.3em;
+    color:  #008B8B;
+    padding-bottom: 3px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+}
+
+nav a:hover
+{
+   color: #DEB887;
+}
+
+.menu a.admin
+{
+    background-color: #DEB887 ; 
+    border-color: #DEB887 ;
+}
+
+input[type="submit"]
+{
+    font-family: Arial Black;
+    background-color: #DDA0DD;
+    font-size: medium;
+    margin-left: 360px;
+}
+
+#Sup{
+    font-family: Arial Black;
+    background-color: #DDA0DD;
+    font-size: medium;
+    margin-left: 50px;
+
+}
+
+.SuppV
+{
+    text-align: center;
+    color: #DDA0DD;
+    
+}
+
+
+.TitreAdmin
+{
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 30px;
+    color: #FF1493;
+}
+.AdminListe{
+    font-family: Arial Black;
+    font-style: italic;
+}
+
+.soustitresup{
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 22px;
+    color: #DDA0DD;
+    text-decoration: underline;
+    
+}
+.ListeVendeur{
+
+    padding-left: 150px;
+    padding-right: 100px;
+    border-spacing: 10px 1rem
+}
+.ListeVendeur2{
+margin-left: 250px;
+text-align: right;
+
+}

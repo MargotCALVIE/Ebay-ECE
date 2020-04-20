@@ -45,13 +45,13 @@ session_start();
                 </div>
             </div>
             <nav>
-                <ul>
-                <li> <a href="http://localhost/categories.html"> Catégories </a></li>
-                <li> <a href="http://localhost/achat.html"> Achat </a></li>
-                <li> <a href="http://localhost/vendre.html"> Vendre </a></li>
-                <li> <a href="http://localhost/login.html"> Votre Compte </a></li>
-                <li> <a href="http://localhost/panier.html"> Panier </a></li>
-                <li> <a href="http://localhost/admin.html"> Admin </a></li>
+                <ul class="menu">
+                <li> <a href="categories.html"> Catégories </a></li>
+                <li> <a href="achat.html"> Achat </a></li>
+                <li> <a href="vendre.html" class="Vendre"> Vendre </a></li>
+                <li> <a href="login.html"> Votre Compte </a></li>
+                <li> <a href="panier.php"> Panier </a></li>
+                <li> <a href="admin.php" > Admin </a></li>
                 </ul>
             </nav>      
         </header>

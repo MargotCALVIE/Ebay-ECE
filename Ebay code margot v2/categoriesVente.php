@@ -25,9 +25,9 @@
                 <li> <a href="categories.html" class="Categorie"> Catégories </a></li>
                 <li> <a href="achat.html"> Achat </a></li>
                 <li> <a href="vendre.html"> Vendre </a></li>
-                <li> <a href="votrecompte.html"> Votre Compte </a></li>
-                <li> <a href="panier.html"> Panier </a></li>
-                <li> <a href="admin.html"> Admin </a></li>
+                <li> <a href="login.html"> Votre Compte </a></li>
+                <li> <a href="panier.php"> Panier </a></li>
+                <li> <a href="admin.php"> Admin </a></li>
                 </ul>
             </nav>      
         </header>
