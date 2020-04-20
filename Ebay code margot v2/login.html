@@ -1,52 +1,66 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
-	<title>login</title>
-	<meta charset="utf-8"/>
-	<link href="http://localhost/ebayece.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8"/>
+    <title> Ebay ECE </title>
+    <link href="login.css" rel="stylesheet" type="text/css"/>
 </head>
-<body>
+
+<body>    
     <div id="main_wrapper">
 <!-- Balise qui englobe tout le contenu permettant de fixer les dimensions de la page -->
         <header>
             <div id="titre_principal">
                 <h1> EBAY ECE</h1>
                 <div id="logo">
-                 <img src="http://localhost/logoEbayECE.jpg" alt="Ebay ECE"  />
+                 <img src="logoEbayECE.jpg" alt="Ebay ECE"  />
                 </div>
             </div>
             <nav>
                 <ul>
-                <li> <a href="http://localhost/categories.html"> Catégories </a></li>
-                <li> <a href="http://localhost/achat.html"> Achat </a></li>
-                <li> <a href="http://localhost/vendre.html"> Vendre </a></li>
-                <li> <a href="http://localhost/login.html"class="login"> Votre Compte </a></li>
-                <li> <a href="http://localhost/panier.html"> Panier </a></li>
-                <li> <a href="http://localhost/admin.html"> Admin </a></li>
+                <li> <a href="categories.html"> Catégories </a></li>
+                <li> <a href="achat.html"> Achat </a></li>
+                <li> <a href="vendre.html"> Vendre </a></li>
+                <li> <a href="login.html" class="login"> Votre Compte </a></li>
+                <li> <a href="panier.php"> Panier </a></li>
+                <li> <a href="admin.html"> Admin </a></li>
                 </ul>
             </nav>      
         </header>
-<h2 id="titre_principal">login</h2>
-<div id="log">
-<form action="http://localhost/login.php" method="get" enctype="multipart/form-data">
-<table id="log">
-	<tr>
-		<td>pseudo :</td>
-		<td><input type="text" name="pseudo" id="pseudo" required></td>
-	</tr>
-	<tr>
-		<td>mail :</td>
-		<td><input type="text" name="mail" id="mail" required></td>
-	</tr>
-</table>
-	<button type="submit" name="log">Login</button>
-</div>
-</form>
-<form action="http://localhost/cree_compte.php" method="get" enctype="multipart/form-data">
-<div id="log">
-<button type="submit" name="cree">je n'ai pas de compte</button>
-</div>
-</form>
+        
+<h2 class="TitreCompte"> Votre Compte </h2>
+            <div class="FormulaireCompte"> 
+                <form action="login.php" method="get" enctype="multipart/form-data">
+                    <table>
+                        <tr>
+                        <td>Pseudo :</td>
+                        <td><input type="text" name="pseudo" id="pseudo" required></td>
+                        </tr>
+                        <tr>
+                        <td>Email :</td>
+                        <td><input type="email" name="mail" id="mail" required></td>
+                        </tr>
+                        <tr>
+                        <td colspan="2" align="center">
+                        <input id="connexion" type="submit" name="VendreSubmit" value="Se connecter">
+                        
+                        </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <form action=VendreInscription.php method="post">
+                <table>
+                    <tr>
+                       <td >
+                        <input id="insciption" type="submit" name="Vendreinscription" value="S'inscrire">
+                        
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
 		<footer>
             <p> Copyright &copy; 2020 EbayECE. All rights reserved </p>
         </footer>   

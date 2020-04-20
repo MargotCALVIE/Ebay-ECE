@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+}
+
+ 
+body
+{ position: relative;
+    background-color: #ffe599 ;
+    font-family: comic sans ms, Arial ;
+    color: black ;
+     min-height: 100%;
+}
+footer
+{
+    text-align: center;
+    font-size: small;
+    bottom: 0;
+
+}
+#main_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+nav a
+{
+    font-family: Arial Black, Gadget;
+    text-transform: uppercase ;
+    font-weight: normal;
+}
+
+header
+{
+    
+}
+
+#titre_principal
+{
+    text-align: center;
+    margin-top: 60px;
+    font-size: xx-large;
+    font-family: Courier New;
+    color:  #008B8B;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;    
+}
+
+#logo img
+{
+    position: fixed;
+    width: 175px;
+    height: 175px;
+    left: 10px;
+    top: 10px;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    
+}
+
+nav li
+{
+    margin-bottom:  15px;
+}
+     
+
+nav a
+{
+    font-size: 1.3em;
+    color:  #008B8B;
+    padding-bottom: 3px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+
+}
+
+nav a:hover
+{
+   color: #DEB887;
+}
+
+.menu a.login
+{
+    background-color: #DEB887 ; 
+    border-color: #DEB887 ;
+}
+
+.TitreCompte
+{
+    text-align: center;
+    font-family: Arial Black;
+    font-size: 30px;
+    color: #FF1493;
+}
+.FormulaireCompte
+{
+  text-align: right;
+  margin-left: 300px;
+}
+input[type="submit"]
+{
+    font-family: arial;
+
+    font-size: small;
+    margin-left: 15px;
+    
+}
+
+ #connexion{   
+    background-color: #00FA9A;
+ }
+#insciption
+{
+    background-color: #B0E0E6;
+    margin-left: 390px;
+}
+#Creer
+{
+    background-color: #B0E0E6;
+    margin-left: 50px;
+
+}
+#log{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+ 

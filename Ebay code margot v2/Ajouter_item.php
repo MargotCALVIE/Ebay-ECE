@@ -33,7 +33,7 @@
             
             <h1 class="TitreVendre"> Ajouter un item a vendre </h1>
             
-<form action="cree_article0.php" method="post" enctype="multipart/form-data">
+<form action="Vendre_cree_article0.php" method="post" enctype="multipart/form-data">
 <table class="AjouterItemForm">
 	<tr>
 		<td>Nom :</td>

@@ -29,7 +29,7 @@ session_start();
             </nav>      
         </header>
 <h2 class="TitreVendre" > Formulaire inscription </h2>
-<form action="cree_compte2.php" method="post" enctype="multipart/form-data">
+<form action="Vendre_cree_compte2.php" method="post" enctype="multipart/form-data">
 <table id="log">
 	<tr>
 		<td>Nom :</td>

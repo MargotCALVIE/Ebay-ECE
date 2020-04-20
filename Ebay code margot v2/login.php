@@ -24,13 +24,11 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>login</title>
+	<title>Votre Compte</title>
 	<meta charset="utf-8"/>
-	<link href="http://localhost/ebayece.css" rel="stylesheet" type="text/css"/>
+	<link href="login.css" rel="stylesheet" type="text/css"/>
 	<style>
-		body{
-		background-image:url(<?php echo $info['imagefond']?>);
-		}
+
 	</style>
 </head>
 <body>
@@ -40,28 +38,41 @@ session_start();
             <div id="titre_principal">
                 <h1> EBAY ECE</h1>
                 <div id="logo">
-                 <img src="http://localhost/logoEbayECE.jpg" alt="Ebay ECE"  />
+                 <img src="logoEbayECE.jpg" alt="Ebay ECE"  />
                 </div>
             </div>
             <nav>
                 <ul>
-                <li> <a href="http://localhost/categories.html"> Catégories </a></li>
-                <li> <a href="http://localhost/achat.html"> Achat </a></li>
-                <li> <a href="http://localhost/vendre.html"> Vendre </a></li>
-                <li> <a href="http://localhost/login.html"class="login"> Votre Compte </a></li>
-                <li> <a href="http://localhost/panier.html"> Panier </a></li>
-                <li> <a href="http://localhost/admin.html"> Admin </a></li>
+                <li> <a href="categories.html"> Catégories </a></li>
+                <li> <a href="achat.html"> Achat </a></li>
+                <li> <a href="vendre.html"> Vendre </a></li>
+                <li> <a href="login.html"class="login"> Votre Compte </a></li>
+                <li> <a href="panier.html"> Panier </a></li>
+                <li> <a href="admin.html"> Admin </a></li>
                 </ul>
             </nav>      
         </header>
-<h2 id="titre_principal">login</h2>
+<h2 class="TitreCompte">Votre Compte</h2>
 <div id="log">
-<table id="log">
+<table >
 	<tr>
-		<td><img src=<?php echo $info['photoprofil']?> height="200"/></td>
-		<td>pseudo :</td>
-		<td><?php echo $info['prenom']."	".$info['nom']?></td>
+    <td><img src=<?php echo $info['photoprofil']?> height="200"/></td>	
 	</tr>
+	<tr>
+	<td>Prenom :</td>
+	<td><?php echo $info['prenom'] ?></td><br>
+	</tr>
+	<tr>
+		<td> Nom :</td>
+		<td><?php echo $info['nom']?></td><br>
+	</tr>
+     <tr>
+		<td> Email :</td>
+		<td><?php echo $info['mail'] ?></td>
+	</tr>
+	<tr>                
+</td>
+</tr>
 </table>
 </div>
 
